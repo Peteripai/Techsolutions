@@ -306,7 +306,26 @@ body {
 
 .has-scrollbar::-webkit-scrollbar-button { width: 15%; }
 
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    width: 40px;
+    height: 40px;
+    background-color: #6a922a;
+    color:black#fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+}
 
+#back-to-top:hover {
+    background-color: #555;
+}
 
 
 
